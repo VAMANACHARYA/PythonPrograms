@@ -12,7 +12,8 @@ def reverse (text):
 
 for i in range(len(lines)):
     reverse(lines[i])
-
+    
+'''write the results in the output file'''
 for item in range(len(results)):
     (OutPutFile.write(results[item]))
 
