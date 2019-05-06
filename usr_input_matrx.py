@@ -2,7 +2,7 @@ rows = int(input("Enter Rows"))
 colmns = int(input("Enter Columns"))
 print (("Rows are {}, columns are {}").format(rows,colmns))
 mat = []
-for i in range (0,colmns):       
+for i in range (0,rows):       
     mat.append([])
 for i in range (0,rows):
     for j in range (0,colmns):
